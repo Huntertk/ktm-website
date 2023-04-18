@@ -23,9 +23,12 @@ const Feature = () => {
     </div>
 
     <div className='feature-component'>
+       <Link to="/models/ktm-sport">
+
       <img className="feature-img" src="https://s7g10.scene7.com/is/image/ktm/rc22-supermoto-abs-us:Medium?wid=875&hei=655&dpr=off" alt="" />
       <p className='feature-subheading'>RACE-BRED PERFORMANCE</p>
       <h1 className='feature-heading'>KTM SUPERSPORT</h1>
+       </Link>
     </div>
     </div>
   )

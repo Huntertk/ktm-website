@@ -20,6 +20,21 @@
     background: rgb(255, 98, 0) url("../src/assets/images/ktmadvanturebackground.jpg") no-repeat center center;
     background-size: 100%;
 }
+.ktmsport-container{
+    height: 100vh;
+    background: rgb(255, 98, 0) url("../src/assets/images/ktmsportbackground.jpg") no-repeat center center;
+    background-size: 100%;
+}
+.ktmmodel-container{
+    height: 100vh;
+    background: rgb(255, 98, 0) url("../src/assets/images/ktmmodelsbackground.jpg") no-repeat center center;
+    background-size: 100%;
+}
+.ktmabout-container {
+    height: 100vh;
+    background: rgb(255, 98, 0) url("../src/assets/images/ktmprofile.png") no-repeat center center;
+    background-size: 100%;
+}
 
 
 .home{
@@ -88,8 +103,12 @@
     .home-container,
     .redbull-container,
     .ktmadvanture-container,
-    .ktmnaked-container {
+    .ktmnaked-container,
+    .ktmsport-container,
+    .ktmmodel-container,
+    .ktmabout-container {
         background-size: cover;
+        
     }
     .home{
         align-items: center;

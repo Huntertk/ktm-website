@@ -9,6 +9,11 @@
     margin: 3em 2em ;
     text-align: start;
     width: 400px;
+    transition: all 0.5s ease-in-out;
+}
+.feature-component:hover{
+    background-color: rgb(226, 225, 225);
+    box-shadow: 1px 2px 4px #000;
 }
 .feature-img{
     width: 100%;

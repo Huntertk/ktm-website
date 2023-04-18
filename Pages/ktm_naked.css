@@ -20,6 +20,11 @@
     flex-direction: column;
     width: 400px;
     text-align: center;
+    transition: all 0.3s linear;
+}
+.feature-bike:hover{
+    background-color: rgb(226, 225, 225);
+    box-shadow: 1px 2px 4px #000;
 }
 .bike-img{
     width: 100%;
