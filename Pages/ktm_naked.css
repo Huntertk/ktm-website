@@ -1,0 +1,37 @@
+.naked-container{
+    margin: 5rem 3rem;
+}
+.bike-container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.ktm-naked-title{
+    font-size: 3rem;
+    margin-bottom: 0.51em;
+}
+.underline{
+    margin-top: 0;
+    border-bottom: 1px solid #000;
+}
+.feature-bike{
+    margin-top: 2em;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    text-align: center;
+}
+.bike-img{
+    width: 100%;
+
+}
+.bike-heading{
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+.bike-subheading{
+    font-size: 1.3rem;
+    color: #ff6600;
+    margin-top: 0;
+}

@@ -5,6 +5,7 @@ import Home from '../Pages/Home'
 import RedbullFeatures from '../Pages/RedbullFeatures'
 import Navbar from '../Pages/Navbar'
 import KtmNaked from '../Pages/KtmNaked'
+import KtmAdvanture from '../Pages/KtmAdvanture'
 const App = () => {
   return (
     <BrowserRouter>
@@ -13,6 +14,7 @@ const App = () => {
     <Route path="/" element={<Home />} />
     <Route path="/redbull-collection" element={<RedbullFeatures  />} />
     <Route path="/models/ktm-naked" element={<KtmNaked  />} />
+    <Route path="/models/ktm-advanture" element={<KtmAdvanture  />} />
 
     </Routes>
     </BrowserRouter>

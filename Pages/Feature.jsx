@@ -15,9 +15,11 @@ const Feature = () => {
       </div>
 
     <div className='feature-component'>
+      <Link to="/models/ktm-advanture">
       <img className="feature-img" src="https://s7g10.scene7.com/is/image/ktm/390adv2020:Medium?wid=875&hei=657&dpr=off" alt="" />
       <p className='feature-subheading'>#GOADVENTURE</p>
       <h1 className='feature-heading'>KTM TRAVEL</h1>
+      </Link>
     </div>
 
     <div className='feature-component'>

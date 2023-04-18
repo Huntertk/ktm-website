@@ -15,6 +15,13 @@
     background-size: 100%;
 }
 
+.ktmadvanture-container {
+    height: 100vh;
+    background: rgb(255, 98, 0) url("../src/assets/images/ktmadvanturebackground.jpg") no-repeat center center;
+    background-size: 100%;
+}
+
+
 .home{
     display: flex;
     justify-content: space-between;
@@ -72,5 +79,46 @@
     background-color: transparent;
     color: #ff6600;
     text-shadow: 0px 0px 5px #000;
+
+}
+
+
+@media screen and (max-width: 500px) {
+
+    .home-container,
+    .redbull-container,
+    .ktmadvanture-container,
+    .ktmnaked-container {
+        background-size: cover;
+    }
+    .home{
+        align-items: center;
+        justify-content: space-between;
+    }
+    .home-logo{
+        width: 80px;
+        margin: 0;
+    }
+    .home-feature-section{
+        text-align: center;
+    }
+    .home-feature-section p{
+        text-align: center;
+        font-size: 1rem;
+        margin: 0.51em;
+    }
+    .home-feature-section h1{
+        text-align: center;
+        margin: 0.51em;
+        font-size: 1.5rem;
+    }
+
+    .btn-home{
+        padding: 1em 1.2em;
+        font-size: 1.2rem;
+    }
+    .home-item-links{
+        padding: 0;
+    }
 
 }

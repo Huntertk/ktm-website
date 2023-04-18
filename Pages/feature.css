@@ -1,12 +1,14 @@
 .feature-main-container{
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 .feature-component{
     display: flex;
     flex-direction: column;
     margin: 3em 2em ;
     text-align: start;
-    width: 30%;
+    width: 400px;
 }
 .feature-img{
     width: 100%;
@@ -14,7 +16,7 @@
 .feature-subheading{
     margin: 10px 0 0 0;
     font-size: 1rem;
-    font-weight: 500;
+    font-weight: 600;
 }
 .feature-heading{
     font-size: 1.5rem;
