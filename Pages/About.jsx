@@ -5,7 +5,7 @@ import './about.css'
 const About = () => {
   return (
     <div>
-      <Navbar img="ktmabout" para="KTM 390 ADVANTURE" heading="ADVANTURE MORE" />
+      <Navbar img="ktmabout" para="THE CORNER ROCKET" heading="KTM 390 DUKE" />
 
       <div className="about">
         <h1>Developer Information</h1>
