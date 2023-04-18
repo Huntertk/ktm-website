@@ -1,0 +1,76 @@
+.home-container {
+    height: 100vh;
+    background: rgb(255, 98, 0) url("../src/assets/images/homepage-background.jpg") no-repeat center center;
+    background-size: 100%;
+}
+.redbull-container {
+    height: 100vh;
+    background: rgb(255, 98, 0) url("../src/assets/images/redbullpagebackground.jpg") no-repeat center center;
+    background-size: 100%;
+}
+
+.ktmnaked-container {
+    height: 100vh;
+    background: rgb(255, 98, 0) url("../src/assets/images/ktmnakedbackground.jpg") no-repeat center center;
+    background-size: 100%;
+}
+
+.home{
+    display: flex;
+    justify-content: space-between;
+}
+.home-logo{
+    width: 150px;
+    margin-right: 2em;
+}
+.home-item a{ 
+    text-decoration: none;
+    font-size: 1.4rem;
+    margin-left: 1em;
+    color: #ff6600;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+.home-item-links{
+    padding: 3em;
+}
+.home-feature-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10rem;
+}
+.home-feature-section p{
+    font-size: 1.52rem;
+    color: #fff;
+    margin: 0;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-shadow: 0px 1px 2px #000;
+}
+.home-feature-section h1{
+    font-size: 4rem;
+    color: #fff;
+    margin-top: 0;
+    text-shadow: 0px 1px 2px #000;
+    margin-bottom: 0;
+}
+.btn-home{
+    font-size: 1.3rem;
+    background-color: #ff6600;
+    color: #fff;
+    padding: 1.3rem 5rem;
+    margin-top: 0;
+    border: 1px solid #ff6600;
+    border-radius: 5px;
+    box-shadow: 1px 1px 4px #000;
+    cursor: pointer;
+    transition: all 0.5s ease-in;
+}
+.btn-home:hover{
+    background-color: transparent;
+    color: #ff6600;
+    text-shadow: 0px 0px 5px #000;
+
+}

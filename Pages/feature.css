@@ -1,0 +1,27 @@
+.feature-main-container{
+    display: flex;
+}
+.feature-component{
+    display: flex;
+    flex-direction: column;
+    margin: 3em 2em ;
+    text-align: start;
+    width: 30%;
+}
+.feature-img{
+    width: 100%;
+}
+.feature-subheading{
+    margin: 10px 0 0 0;
+    font-size: 1rem;
+    font-weight: 500;
+}
+.feature-heading{
+    font-size: 1.5rem;
+    margin: 0;
+}
+.feature-component a{
+    text-decoration: none;
+    color: #000;
+    
+}
